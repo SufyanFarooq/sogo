@@ -1,0 +1,102 @@
+
+
+
+
+.maindivheadingtextp{
+    color: #f95192;
+    text-align: justify;
+}
+
+.maindivheading{
+  
+    text-align: center;
+    font-size: 20px;
+   
+}
+.mainupperdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.innerdivheading{
+    width: auto;
+}
+
+
+
+/* partners */
+
+
+@media (max-width: 530px) and (min-width:280px) {
+    .carddiv {
+     width: 100%;
+    margin-right: 2rem;
+    margin-top: 2rem;  
+    height: 100px;
+    
+    }
+    
+}
+
+@media (max-width: 1800px) and (min-width:530px) {
+    .carddiv{
+        width: 190px;
+        height: 100px;
+        margin-left: 2rem;
+        margin-top: 2rem;  
+     
+    }
+    .Imagelogo{
+        margin-top: 1rem;
+        
+    }
+    
+}
+
+.Partnerssection{
+    height: auto;
+}
+.carddiv:hover{
+    box-shadow: wheat;
+}
+
+.carddivmain{
+ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 85vw;
+}
+/* @media (min-width: 450px) and (max-width:850px) {
+    .carddiv {
+     width: 90vw;
+
+    }
+} */
+
+.imgdiv{
+    display: flex;
+    /* flex-direction: column; */
+   /* align-self: center; */
+   align-self: center;
+    justify-content: center;
+   margin-top: 1rem;
+  
+}
+.headingclient{
+    text-decoration: none;
+    color: rgba(0,0,0,.85);
+    margin:5rem 0 0 0;
+}
+.linktag{
+    text-decoration: none;
+    color: rgba(0,0,0,.85);
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.linktag:hover{
+    text-decoration: none;
+    color: rgba(0,0,0,.85);
+}

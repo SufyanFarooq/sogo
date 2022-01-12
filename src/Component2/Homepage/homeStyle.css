@@ -1,0 +1,257 @@
+body{
+    background-color: rgb(250, 250, 250);
+}
+
+
+
+
+.rowdiv{
+    margin-top: 10rem;
+    z-index: 0;
+}
+.headingh1{
+    margin-top: 10rem !important;
+    color: #f95192;
+}
+
+
+@media (min-width:300px) and (max-width:900px) {
+    .rowdiv{
+        margin-top: 1rem;
+        
+    }
+    .seconddiv{
+        margin-top: 1rem;
+    }
+
+
+
+    .fourthdivgif{
+      
+        margin-top: 5rem !important; 
+    }
+    .fifthdivheaderimg{
+        margin-top: -3rem !important;
+       
+    }
+    .Thailogo{
+        width: 5rem;
+    }
+}
+
+.seconddiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.seconddivheading{
+    margin-top: 2rem;
+    font-size: 30px;
+    /* margin-right: 10rem; */
+    text-align: center;
+}
+.seconddivheadinginner{
+    font-size: 40px;
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+.seconddivP{
+    font-size: 20px;
+    margin-top: 2rem;
+    text-align: center;
+    /* font-weight: bold; */
+    color: #f95192;
+}
+
+
+@media (min-width:300px) and (max-width:600px) {  
+.Thaicoinlogo{
+    position:absolute;
+    margin-top: 6.5rem !important;
+    width: 8.5rem;
+    border-radius: 170px 180px 180px 180px;
+}
+.thirddivbtn{
+    justify-content: center;
+}
+.img2{
+    width: 350px;
+}
+   
+}
+
+@media (min-width:600px) and (max-width:900px) {  
+    .Thaicoinlogo{
+        position:absolute;
+        margin-top: 11.2rem !important;
+        width: 14.5rem;
+        border-radius: 170px 180px 180px 180px;
+    }
+    .thirddivbtn{
+        justify-content: center;
+    }
+    .img2{
+        width: 600px;
+    }
+  
+       
+    }
+
+    @media (min-width:900px) and (max-width:1800px) {  
+        .Thaicoinlogo{
+            position:absolute;
+            margin-top: 18.2rem !important;
+            width: 23.8rem;
+            border-radius: 170px 180px 180px 180px;
+        }
+        .thirddivbtn{
+            justify-content: center;
+        }
+        .img2{
+            width: 70rem;
+        }
+
+        .fifthdivheaderimg{
+            margin-top: -3rem !important;
+           
+        }
+        .Thailogo{
+            width: 5rem;
+        }
+        .fifthdivcard{
+            height:35rem;
+        }
+           
+    }
+
+
+
+.thirddivimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.Thaicoinlogo{
+    position:absolute;
+    margin-top: 18rem;
+    /* width: 26rem; */
+}
+.thirddivbtn{
+    justify-content: center;
+}
+.Tatora{
+    height: auto;
+    z-index: -1;
+}
+.maindiv{
+    z-index: 2;
+    height: auto;
+}
+.newdivfourth{
+    margin-top: 10rem;
+}
+.FourthP{
+    /* padding:  0 200px; */
+}
+
+
+
+
+.sm-button {
+    border: none;
+    background: linear-gradient(
+15deg ,  #f95192  0%, #fdeaf1 100%);
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 0 70px;
+    margin-top: 0px;
+    /* margin-right: 10px; */
+    line-height: 54px;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+    margin-top: 2rem;
+    width: 400px;
+}
+
+.hoverbtn:hover{
+background: linear-gradient(
+        15deg , #f95192 50%, #dfd9e0 100%) !important;
+        color: white;
+}
+
+.sm-button img {
+    width: 55px !important;
+    position: absolute;
+    right: -3px;
+    top: -1px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.fourthdivul{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #f95192;
+    font-size: 17px;
+}
+.fourthdivgif{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -11rem;
+}
+
+.FifthP{
+    font-size: 40px;
+    font-weight: bold;
+}
+.fifthh6{
+    font-size: 30px;
+    margin-top: -5rem ;
+}
+.fifthdivheaderimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -3rem;
+   
+}
+.fifthdivbodyP{
+    color: #f95192;
+    font-size: 20px;
+    text-align: justify;
+}
+.fifthdivcard{
+    background-color:white;
+    border-radius: 20px;
+    /* height: 25rem; */
+}
+.fifthdivheadercolor{
+    background-color:white;
+}
+
+.fifthdivrow{
+    margin-top: 5rem;
+}
+.fifthdivmainfull{
+    background: linear-gradient(
+        15deg , #f95192 50%, #dfd9e0 100%) !important;
+        padding: 15px;
+        margin-top: 5rem;
+       
+}
+
+.fifthdivinnertext{
+    color: white !important;
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+
+.SocialICon{
+    /* margin-top: 5rem; */
+    /* overflow-wrap:inherit; */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+}
+
+.Foterh{
+    font-size: 20px !important;
+    font-weight: 600;
+    background: linear-gradient(
+        15deg, #200b13 0%, #f95192 100%);
+    color: transparent;
+  
+    background-clip: text;
+    display: inline-block;
+justify-content: center;
+}
+
+.footerUl{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin-top: 5rem;
+}
+.link{
+    text-decoration: none;
+    display: flex;
+    color: #f95192 ;
+    font-size: 19px;
+    line-height: 2rem;
+}
+
+.link:hover{
+    color: #f95192;
+    margin-left: 5px;
+}
+
+.foter-footer{
+    text-align: center;
+    border-top: 1px solid #271e5f;
+    padding: 10px 0 0 0 ;
+    color: #f95192 ;
+}
